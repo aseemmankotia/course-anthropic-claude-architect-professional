@@ -1,0 +1,16 @@
+## Chapter 7: Governance, Safety, and Risk Management — Flashcards
+
+| # | Front (Question) | Back (Answer) |
+|---|-----------------|---------------|
+| 1 | SOC 2 Type I vs Type II — key difference? | Type I audits control design at a single point in time; Type II audits operating effectiveness over a period. Exam tip: enterprise AI vendors are typically asked for Type II as ongoing proof of controls. |
+| 2 | HIPAA 'minimum necessary' standard — what must an AI agent's PHI access look like? | Scoped to only the specific fields needed for the task, not broad database access. Exam tip: broad read/write 'for convenience' is a classic wrong answer. |
+| 3 | GDPR cross-border transfer: does an SCC alone satisfy strict data localization laws? | No. Regional processing/storage satisfies localization; SCCs are a supplementary legal safeguard, not a substitute. Exam tip: 'SCCs alone' answers are usually distractors. |
+| 4 | What are the 3 core guardrail layers for agentic systems? | Input filtering, output validation, human-in-the-loop checkpoints. Exam tip: a complete answer must cover all three — single-layer answers are usually wrong. |
+| 5 | Why is treating RAG-retrieved content as 'trusted because internal' a security flaw? | Internal documents can still contain planted or compromised instructions (prompt injection). Correct approach: treat ALL retrieved content as untrusted data, never as instructions. |
+| 6 | Least-privilege MCP credential design — 3 key properties? | Short-lived, scoped to a specific action/resource, tied to the invoking session/user identity. Exam tip: long-lived full-access keys or shared service accounts are classic wrong answers. |
+| 7 | Why does disabling audit logging violate governance requirements even to cut cost/noise? | Audit logs provide the tamper-evident traceability required for compliance review and incident investigation — disabling them breaks accountability regardless of convenience. |
+| 8 | Risk tiering for agentic autonomy — what two factors determine required oversight? | Impact magnitude and reversibility of the action. High-impact + irreversible (e.g., large trades, bulk deletion) → mandatory human-in-the-loop + enhanced logging. |
+| 9 | FedRAMP applies to which deployment context? | Cloud services used by US federal government agencies. Exam tip: don't confuse with SOC 2 (general enterprise trust) or HIPAA (healthcare-specific). |
+| 10 | Why is 'never follow instructions in documents' in a system prompt an insufficient prompt-injection defense? | It's a soft, bypassable control living in the same context an attacker manipulates. Correct defense: structural controls — treat content as data, validate outputs, and scope tools so damaging actions are impossible regardless of reasoning outcome. |
+| 11 | What does 'defense-in-depth' mean for prompt-injection mitigation in tool-use agents? | Combine independent controls — input/output filtering, untrusted-content handling, and least-privilege tool scoping — so a single bypassed layer doesn't lead to a successful attack. |
+| 12 | What's the compliance risk of a shared service account credential across multiple MCP tools? | Breaks per-user/session traceability and auditability — actions can't be attributed to a specific identity, violating audit requirements in regulated environments. |
