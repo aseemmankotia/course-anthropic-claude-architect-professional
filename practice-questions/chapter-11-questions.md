@@ -98,7 +98,7 @@ OnVUE requires a full 360-degree room scan and a clean desk with background appl
 
 ---
 
-**Q5.** A candidate scores 740 on the CCAR-P exam, which is scaled from 100-1000 with a passing threshold of 700. What does this scaled score represent?
+**Q5.** A candidate scores 740 on the CCAR-P exam, which is scaled from 100-1000 with a passing threshold of 720. What does this scaled score represent?
 
 A) The candidate answered exactly 74% of all 63 questions correctly
 B) The candidate answered 74 out of 100 scenario questions correctly

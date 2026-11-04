@@ -3,7 +3,7 @@
 | # | Front (Question) | Back (Answer) |
 |---|-----------------|---------------|
 | 1 | CCAR-P exam structure: number of questions and time limit? | 63 questions in 120 minutes. Exam tip: budget ~114 seconds (1 min 54 sec) per question. |
-| 2 | CCAR-P scaled score range and passing threshold? | Scale is 100-1000; passing threshold is 700. Exam tip: 700 is NOT 70% raw score — it reflects psychometric scaling, not raw percentage. |
+| 2 | CCAR-P scaled score range and passing threshold? | Scale is 100-1000; passing threshold is 720. Exam tip: 720 is NOT 72% raw score — it reflects psychometric scaling, not raw percentage. |
 | 3 | Average time budget per question on the CCAR-P exam? | ~114 seconds (1 min 54 sec). Exam tip: check pace at Q16 (~30 min elapsed), Q32 (~60 min), Q48 (~90 min). |
 | 4 | Visual cue for a multiple-response question in OnVUE? | Square checkboxes instead of round radio buttons. Exam tip: the question text always states the exact number of options to select. |
 | 5 | Partial credit rule for multiple-response questions? | None — scoring is all-or-nothing on the exact correct set. Exam tip: selecting 1 of 2 correct answers still scores zero. |

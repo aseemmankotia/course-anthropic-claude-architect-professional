@@ -12,7 +12,7 @@ D) The candidate must have answered fewer than 63 questions, which automatically
 
 **Correct: B**
 
-CCAR-P reports a scaled score of 100-1000 with 700 as the passing threshold; scaling reflects domain weighting, so raw percentage correct does not map linearly to pass/fail.
+CCAR-P reports a scaled score of 100-1000 with 720 as the passing threshold; scaling reflects domain weighting, so raw percentage correct does not map linearly to pass/fail.
 
 **Why the others are wrong:**
 - Time limits affect completion, not scaled scoring conversion — this is a plausible but irrelevant distractor
@@ -138,7 +138,7 @@ Because scaled scoring reflects domain weighting rather than raw totals, strong 
 **Why the others are wrong:**
 - Raw count alone does not determine the scaled score — this is the core misconception the scaled model corrects for
 - Domains are explicitly weighted unevenly, not scored equally
-- A passing scaled score of 700 does not require perfection in every domain
+- A passing scaled score of 720 does not require perfection in every domain
 
 > ⚠️ Frequently missed on the exam — read the options carefully.
 

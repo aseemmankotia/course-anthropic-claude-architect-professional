@@ -7,7 +7,7 @@
 | Time limit | 120 minutes |
 | Delivery | Pearson VUE OnVUE (remote) or test center |
 | Scoring model | Scaled, 100-1000 |
-| Passing threshold | 700 |
+| Passing threshold | 720 |
 | Credential validity | 12 months |
 | Renewal | Free if completed on time |
 | Registration | Anthropic Partner Academy portal |
@@ -26,7 +26,7 @@
 - Scaled score reflects **domain-weighted** performance.
 - A high raw percentage concentrated in low-weight domains can still fail if high-weight domains (e.g., governance, stakeholder management) are weak.
 
-**Common mistake:** Assuming 55/63 correct (~87%) guarantees a pass. It does not — domain weighting can produce a scaled score below 700.
+**Common mistake:** Assuming 55/63 correct (~87%) guarantees a pass. It does not — domain weighting can produce a scaled score below 720.
 
 ## Domain Weighting Highlight
 | Domain Group | Combined Weight |
@@ -47,6 +47,6 @@
 ## Registration & Renewal Flow
 1. Register via **Anthropic Partner Academy portal**.
 2. Schedule delivery through **Pearson VUE** (OnVUE or test center).
-3. Pass with scaled score ≥ **700**.
+3. Pass with scaled score ≥ **720**.
 4. Credential valid **12 months**.
 5. Renew **on time** → free. Miss the window → lapse, retake required.
